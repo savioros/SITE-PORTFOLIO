@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+}
+
+/*CABEÇALHO*/ 
+#top{
+    width: 100%;
+    height: 70px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#content{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#content-logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#content-items-bar{
+    width: 40%;
+    height: 100%;
+    float: right;
+    top: 0;
+}
+
+#content-logo h1{
+    font-family: Karla;
+}
+
+#menu{
+    float: right;
+    margin-top: 25px;
+    margin-right: 65px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Karla;
+    font-size: 25px;
+}
+
+#menu ul li a:hover{
+    transition: .5s;
+    background-color: #3742fa;
+    border-radius: 5px;
+}
+
+/*APRESENTAÇÃO*/
+#sobre-mim{
+    width: 100%;
+    height: 683px;
+    position: relative;
+}
+
+#texto-sobre{
+    position: absolute;
+    width: 280px;
+    height: 110px;
+    background-color: gray;
+    left: 170px; 
+    top: 20%;
+}
+
+#texto-sobre a{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #3742fa;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#texto-sobre a:hover{
+    background-color: #2631f8;
+}
+
+/*PORTFÓLIO*/
+#group-box{
+    width: 100%;
+    height: 2130px;
+    background-color: #c8d6e5;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#group-box h3{
+    text-align: center;
+    font-family: Karla;
+    font-size: 25px;
+}
+
+.box{
+    width: 1080px;
+    height: 600px;
+    margin: 50px;
+}
+
+.projeto-um{
+    box-shadow: 7px 5px 5px black;
+}
+
+.projeto-dois{
+    box-shadow: -7px 5px 5px black;
+    float: right;
+}
+
+.projeto-tres{
+    background-color: #f5f6fa;
+    box-shadow: 7px 5px 5px black;
+    float: left;
+}
+
+.link-proj{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+}
+
+.proj1{
+    margin-left: 20px;
+    line-height: 600px;
+    width: 45px;
+    height: 45px;
+}
+
+.proj1:hover{
+    font-size: 45px;
+    color: white;
+}
+
+.proj2{
+    margin-right: 40px;
+    line-height: 600px;
+    left: 0;
+    margin-left: 355px;
+    width: 45px;
+    height: 45px;
+}
+
+.proj2:hover{
+    font-size: 45px;
+    color: white;
+}
+
+.proj3{
+    margin-left: 20px;
+    line-height: 600px;
+    width: 45px;
+    height: 45px;
+}
+
+.proj3:hover{
+    font-size: 45px;
+    color: white;
+}
+
+/*RODAPE*/
+#rodape{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    text-align: center;
+    color: #3742fa;
+}
+
+#rodape h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#rodape ul{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    margin: auto;
+}
+
+#rodape li{
+    list-style: none;
+    margin-right: 10px;
+}
